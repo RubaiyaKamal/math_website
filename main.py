@@ -54,7 +54,7 @@ def extract_text_from_image(image: Image.Image) -> str:
 
 st.set_page_config(page_title="GCSE Math Solver", page_icon="📐")
 
-st.title("📐 AI Math Solver for GCSE (Edexcel & AQA)")
+st.title("📐 Think2Solve")
 
 input_method = st.radio("Choose input type", ("Text Input", "Image Upload"))
 
